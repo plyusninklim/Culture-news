@@ -121,7 +121,7 @@ footer .nav-title:hover a,
 }
 
 .reviews-title {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 23px;
@@ -154,7 +154,8 @@ footer .nav-title:hover a,
 
 .info-col {
     width: 707px;
-    height: 500px;
+    height: 556px;
+    margin-bottom: 100px;
 
     display: flex;
     flex-direction: column;
@@ -171,11 +172,11 @@ footer .nav-title:hover a,
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 2px;
-    text-transform: uppercase   ;
+    text-transform: uppercase;
 }
 
 .info-subsection-title {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 23px;
@@ -202,29 +203,23 @@ footer .nav-title:hover a,
     background-color: #ff7931;
     color: white;
 
-    margin-bottom: 50px;
 }
 
 .info-button span {
     text-transform: uppercase;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 2px;
-
-    display: inline;
-}
-
-.info-button img {
-    display: inline;
-}
-
-.info-button img,
-.info-button span {
     vertical-align: middle;
-    text-align: center;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.info-button img{
+    display: inline;
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
 footer {
@@ -238,7 +233,7 @@ footer .nav-title a{
 
 
 .footer-title {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 28px;
