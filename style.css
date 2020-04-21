@@ -3,7 +3,15 @@ body {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 21px;
+    line-height: 21px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+header, nav, footer {
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -16,6 +24,18 @@ ul {
     padding: 0px;
     margin: 0px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header{
+    align-items: center;
+}
+
+header, section {
+    margin: 45px 0px;
 }
 
 .page-title {
@@ -32,7 +52,9 @@ ul {
 	font-size: 15px;
 	line-height: 18px;
     text-transform: uppercase;
-	letter-spacing: 2px;
+    letter-spacing: 2px;
+    
+    margin-left: 1.5em;
 }
 
 header .nav-title:hover a,
@@ -47,6 +69,12 @@ footer .nav-title:hover a,
     background-image: url('img/Mask\ Group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 464px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery-icon {
@@ -64,15 +92,32 @@ footer .nav-title:hover a,
     font-size: 72px;
 	line-height: 84px;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .gallery-text {
     width: 456px;
 }
 
+.reviews {
+    text-align: center;
+
+    margin-bottom: 0px;
+}
+
+.reviews-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .reviews .col {
     width: 370px;
+    margin-left: 20px;
+
+    text-align: left;
 }
 
 .reviews-title {
@@ -88,13 +133,12 @@ footer .nav-title:hover a,
 }
 
 .info {
-    margin: 50px auto;
     background-color: #f7f7f7;
     height: 556px;
     overflow-y: hidden;
 }
 
-.info-col {
+.info-circle {
     width: 707px;
     height: 707px;
     background-color: white;
@@ -102,10 +146,32 @@ footer .nav-title:hover a,
     transform: translateY(-50px);
     margin-left: auto;
     margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 } 
+
+.info-col {
+    width: 707px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .info-subsection {
     width: 370px;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase   ;
 }
 
 .info-subsection-title {
@@ -114,6 +180,13 @@ footer .nav-title:hover a,
     font-weight: 900;
     font-size: 23px;
     line-height: 31px;
+    text-align: center;
+}
+
+.info-subsection-text {
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
 }
 
 .info-subsection hr {
@@ -122,11 +195,14 @@ footer .nav-title:hover a,
 }
 
 .info-button {
+    display: block;
     border: none;
     width: 170px;
     height: 47px;
     background-color: #ff7931;
     color: white;
+
+    margin-bottom: 50px;
 }
 
 .info-button span {
@@ -160,6 +236,7 @@ footer .nav-title a{
     color: white;
 }
 
+
 .footer-title {
     font-family: Playfair Display;
     font-style: normal;
@@ -167,23 +244,39 @@ footer .nav-title a{
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 1px;
+    align-self: center;
 }
 
 footer hr {
     width: 80%;
     color: white;
     opacity: 0.5;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto 30px auto;
 }
 
 .social-icon {
     width: 47px;
     height: 47px;
     background-color: white;
-    margin: 20px;
+    margin-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.social-icon img {
-    margin: 25%;
+.in-icon {
+	background-image: url('img/instagram_icon.svg');
+}
+
+.fb-icon {
+	background-image: url('img/facebook_icon.svg');
+}
+
+.tw-icon {
+	background-image: url('img/twitter_icon.svg');
 }
