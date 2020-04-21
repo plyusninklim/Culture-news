@@ -1,0 +1,189 @@
+body {
+    font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.page-title {
+    font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+
+	letter-spacing: 1px;
+}
+
+.nav-title {
+	font-size: 15px;
+	line-height: 18px;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+header .nav-title:hover a,
+footer .nav-title:hover a,
+.reviews .col:hover h3{
+    color: #ff7931;
+}
+
+.gallery {
+    background: darkblue;
+    color: white;
+    background-image: url('img/Mask\ Group.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-icon {
+    width: 55px;
+    height: 55px;
+    background-color: #ff7931;
+    border-radius: 50%;
+}
+
+.gallery-icon img {
+    margin: 25%;
+}
+
+.gallery-title {
+    font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.gallery-text {
+    width: 456px;
+}
+
+.reviews .col {
+    width: 370px;
+}
+
+.reviews-title {
+    font-family: 'Playfair Display', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.reviews .col img {
+    width: 370px;
+}
+
+.info {
+    margin: 50px auto;
+    background-color: #f7f7f7;
+    height: 556px;
+    overflow-y: hidden;
+}
+
+.info-col {
+    width: 707px;
+    height: 707px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translateY(-50px);
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.info-subsection {
+    width: 370px;
+}
+
+.info-subsection-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.info-subsection hr {
+    width: 100px;
+    opacity: 0.2;
+}
+
+.info-button {
+    border: none;
+    width: 170px;
+    height: 47px;
+    background-color: #ff7931;
+    color: white;
+}
+
+.info-button span {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    display: inline;
+}
+
+.info-button img {
+    display: inline;
+}
+
+.info-button img,
+.info-button span {
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer {
+    background: #575757;
+    color: white;
+}
+
+footer .nav-title a{
+    color: white;
+}
+
+.footer-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+footer hr {
+    width: 80%;
+    color: white;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icon {
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    margin: 20px;
+}
+
+.social-icon img {
+    margin: 25%;
+}
