@@ -196,13 +196,15 @@ footer .nav-title:hover a,
 }
 
 .info-button {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     border: none;
     width: 170px;
     height: 47px;
     background-color: #ff7931;
     color: white;
-
 }
 
 .info-button span {
@@ -212,14 +214,11 @@ footer .nav-title:hover a,
     line-height: 14px;
     letter-spacing: 2px;
     vertical-align: middle;
-    padding-top: 10px;
-    padding-left: 40px;
 }
 
 .info-button img{
     display: inline;
     vertical-align: middle;
-    padding-top: 10px;
 }
 
 footer {
